@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    background-color: #FBFBFB;
+    overflow-x: hidden;
+}
+
+.icon {
+    height: 130px;
+    width: 130px;
+    font-size: 70px;
+    border-radius: 50%;
+}
+
+.backimg {
+    height: 480px;
+    background-image: linear-gradient(#9D0E0E00, #4F0707), url(../../public/images/shutterstock_348320018@2x.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.find {
+    color: #FFFFFF;
+}
+
+.location {
+    /* width: 265px; */
+    height: 55px;
+}
+
+.restaurants {
+    width: 470px;
+    height: 55px;
+    outline: none;
+
+}
+
+.quick {
+    color: #192F60;
+}
+
+.disc {
+    color: #8C96AB;
+}
+
+.foodimg {
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+}
+
+.rect-box {
+    box-shadow: 6px 0 6px 3px #00000029;
+    background-color: #FFFFFF;
+
+
+}
+.rect-box:hover{
+    transform: scale(1.1);
+    transition: 1s;
+ 
+}
+
+.suggBox {
+    background-color: white;
+    /* margin-top: 2px; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 4px 0px 0px 0px;
+    width: 29rem;
+}
+
+.sugImg {
+    height: 55px;
+    border-radius: 50%;
+    width: 55px;
+    display: initial;
+    margin: 6px 5px 6px -26px;
+}
+.suggList {
+    list-style-type: none;
+    
+}
+
+
+
+.sugName {
+    color: #192F60;
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.sugAddress {
+    color: #192F60;
+    font-size: 10px;
+    display: block;
+    margin: -25px 0px 8px 37px;
+}
+
+@media screen and (max-width: 576px) {
+
+    .icon {
+        color: #EB2929;
+        font-size: 40px;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .symbol {
+        margin-top: 4rem;
+    }
+
+    .backimg {
+        background-image: linear-gradient(#9D0E0E00, #4F0707), url(../../public/images/shutterstock_348320018@2x.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 350%;
+    }
+
+    .rect-box {
+        /* margin-top: 15px; */
+    }
+
+    .restaurants {
+        width: 270px;
+        height: 55px;
+        outline: none;
+
+
+    }
+}
